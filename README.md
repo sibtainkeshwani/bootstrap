@@ -16,7 +16,7 @@ This is also a boilerplate for bootstrap v5.0.0 alpha with Gulp.
 
 ## Let's begin
 
-Download zip file: <a href="https://github.com/prafullaranjan/bootstrap.git"> Here </a>
+Download zip file: <a href="https://github.com/prafullaranjan/bootstrap/archive/master.zip"> Here </a>
 
 
 Extract this and go to the extracted folder & run this command
