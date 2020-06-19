@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e6003f3-ae8b-4a32-adde-8867432c0c74" name="Default Changelist" comment="Removed PostCSS &amp; Cssnano support. Package name updated">
+    <list default="true" id="8e6003f3-ae8b-4a32-adde-8867432c0c74" name="Default Changelist" comment="Download link updated">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1592461354168</updated>
       <workItem from="1592461355553" duration="21270000" />
-      <workItem from="1592544842122" duration="2994000" />
+      <workItem from="1592544842122" duration="3249000" />
+      <workItem from="1592548445393" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1592547499784</created>
@@ -93,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592548050058</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Download link added">
+      <created>1592548199875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592548199875</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Download link updated">
+      <created>1592548375812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592548375812</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +118,9 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Removed PostCSS &amp; Cssnano support. will use it in future release." />
     <MESSAGE value="Removed PostCSS &amp; Cssnano support. Package name updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed PostCSS &amp; Cssnano support. Package name updated" />
+    <MESSAGE value="Download link added" />
+    <MESSAGE value="Download link updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Download link updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1727" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592465922618">
@@ -130,10 +147,10 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592482188870" />
-    <state x="1641" y="102" key="Vcs.Push.Dialog.v2" timestamp="1592548062679">
+    <state x="1641" y="102" key="Vcs.Push.Dialog.v2" timestamp="1592548384419">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state x="1641" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592548062679" />
+    <state x="1641" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592548384419" />
     <state x="1705" y="165" key="run.anything.popup" timestamp="1592545240049">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
