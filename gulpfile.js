@@ -22,7 +22,7 @@ const
     scsscustom  = scss + 'custom/',
     cssdist     = root + 'assets/css/',
     js          = root + 'src/js/',
-    jsframe     = js + 'framework/',
+    jsplugin     = js + 'plugins/',
     jsconfig    = js + 'script/',
     jsdist      = root + 'assets/js/';
 
@@ -32,6 +32,9 @@ const
     jswatchfiles = js + '**/*.js';
 
 const
+    constplugins = [
+        jsplugin + 'waves/waves.min.js'
+    ];
     constconfig = [
         jsconfig + 'script.js'
     ];
@@ -82,6 +85,19 @@ gulp.task('script', function () {
         .pipe(gulp.dest(jsdist));
 });
 
+gulp.task('plugins', function () {
+    return gulp.src(constplugins)
+        .pipe(iff(env === 'development' , sourcemaps.init()))
+        .pipe(concat('plugins.js'))
+        .pipe(terser({
+            keep_fnames: true,
+            mangle: false
+        }))
+        .pipe(header(copyright, { pkg: pkg }))
+        .pipe(iff(env === 'development' , sourcemaps.write('.')))
+        .pipe(gulp.dest(jsdist));
+});
+
 //Adding copyright notice
 const pkg = require('./package.json');
 
@@ -108,10 +124,11 @@ gulp.task('watchman', function () {
         server: {
             baseDir: "./"
         },
-        port: 3000,
+        port: 9090,
     });
     gulp.watch(stylewatchfiles, gulp.parallel('framework'));
     gulp.watch(stylewatchfiles, gulp.parallel('custom'));
+    gulp.watch(constplugins, gulp.parallel('plugins'));
     gulp.watch(constconfig, gulp.parallel('script'));
     gulp.watch([htmlwatchfile , stylewatchfiles, jswatchfiles]).on('change', reload);
 });

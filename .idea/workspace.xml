@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e6003f3-ae8b-4a32-adde-8867432c0c74" name="Default Changelist" comment="Download link updated">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8e6003f3-ae8b-4a32-adde-8867432c0c74" name="Default Changelist" comment="Removed unnecessary xml codes">
+      <change afterPath="$PROJECT_DIR$/src/js/plugins/waves/waves.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/plugins/waves/waves.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/custom/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,23 +54,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dTuMMYAgzBprxkrpcgYxCoenMv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\bootstrap\assets\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\bootstrap\src\js\script" />
       <recent name="C:\xampp\htdocs\bootstrap\src" />
@@ -78,7 +111,8 @@
       <updated>1592461354168</updated>
       <workItem from="1592461355553" duration="21270000" />
       <workItem from="1592544842122" duration="3249000" />
-      <workItem from="1592548445393" duration="25000" />
+      <workItem from="1592548445393" duration="2802000" />
+      <workItem from="1592552142496" duration="21514000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1592547499784</created>
@@ -108,19 +142,40 @@
       <option name="project" value="LOCAL" />
       <updated>1592548375812</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed unnecessary xml codes">
+      <created>1592548523004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592548523004</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Removed PostCSS &amp; Cssnano support. will use it in future release." />
     <MESSAGE value="Removed PostCSS &amp; Cssnano support. Package name updated" />
     <MESSAGE value="Download link added" />
     <MESSAGE value="Download link updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Download link updated" />
+    <MESSAGE value="Removed unnecessary xml codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary xml codes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1727" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592465922618">
@@ -131,29 +186,29 @@
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1927" y="267" key="Github.ShareDialog/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592547549586" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1592482188871">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1592571772000">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592482188871" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1592482188870">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592571772000" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1592571772000">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592482188870" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1592482188870">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592571772000" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1592571771999">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592482188870" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1592482188870">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592571771999" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1592571772000">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592482188870" />
-    <state x="1641" y="102" key="Vcs.Push.Dialog.v2" timestamp="1592548384419">
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592571772000" />
+    <state x="1641" y="102" key="Vcs.Push.Dialog.v2" timestamp="1592548534402">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state x="1641" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592548384419" />
-    <state x="1705" y="165" key="run.anything.popup" timestamp="1592545240049">
+    <state x="1641" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592548534402" />
+    <state x="1705" y="165" key="run.anything.popup" timestamp="1592572350897">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state x="1705" y="165" key="run.anything.popup/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592545240049" />
+    <state x="1705" y="165" key="run.anything.popup/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592572350897" />
   </component>
 </project>

@@ -23,6 +23,10 @@ Extract this and go to the extracted folder & run this command
 
 <code>npm install</code>
 
+Once this is completed run below command to generate default files
+
+<code>npm run build</code>
+
 This will install all the dependencies of this project.
 
 <code>npm run watch</code> - to open and watch this project locally.

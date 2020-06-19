@@ -8,32 +8,47 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!--  Bootstrap JS -->
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+
     <title>Bootstrap v5 - Custom designed</title>
 
 </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">BS5</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
+
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm bg-white sticky-top">
+            <div class="logo-wrap">
+                <a class="navbar-brand" href="/">BS5</a>
+                <a href="#!" class="mobilemenutrigger">
+                    <span class="iconify" data-icon="uim:bars" data-inline="false" data-width="30px"></span>
+                </a>
+            </div>
+            <div class="menu-wrapper">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="Home" href="#!">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link has-submenu" href="#!">Components</a>
+                        <ul class="submenu">
+                            <li><a href="#!">Alerts</a></li>
+                            <li><a href="#!">Modal</a></li>
+                            <li class="active"><a href="#!">Notification</a></li>
+                            <li><a href="#!">Cards</a></li>
+                            <li><a href="#!">Badge</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
+
+
         <main class="main" role="main">
 
             <section class="welcome">
@@ -59,8 +74,69 @@
                                 </div>
                                 <div class="card-footer bg-white">
                                     <div class="text-center py-2">
-                                        <a href="#" class="btn btn-primary">Rate on Github</a>
+                                        <a href="https://github.com/prafullaranjan/bootstrap/" target="_blank" class="btn btn-primary">Rate on Github</a>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="view-components">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="component-box">
+                                <div class="cb-content">
+                                    <div class="icon bell">
+                                        <span class="iconify" data-icon="bi:bell" data-inline="false" data-width="40px"></span>
+                                    </div>
+                                    <h2 class="title">
+                                        Alert
+                                    </h2>
+                                    <p class="desc">
+                                        More colors, awesome UI with default alert box widgets.
+                                    </p>
+                                    <a href="#!" class="btn btn-info">
+                                        View Component
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="component-box">
+                                <div class="cb-content">
+                                    <div class="icon bell">
+                                        <span class="iconify" data-icon="bi:bell" data-inline="false" data-width="40px"></span>
+                                    </div>
+                                    <h2 class="title">
+                                        Alert
+                                    </h2>
+                                    <p class="desc">
+                                        More colors, awesome UI with default alert box widgets.
+                                    </p>
+                                    <a href="#!" class="btn btn-info">
+                                        View Component
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="component-box">
+                                <div class="cb-content">
+                                    <div class="icon bell">
+                                        <span class="iconify" data-icon="bi:bell" data-inline="false" data-width="40px"></span>
+                                    </div>
+                                    <h2 class="title">
+                                        Alert
+                                    </h2>
+                                    <p class="desc">
+                                        More colors, awesome UI with default alert box widgets.
+                                    </p>
+                                    <a href="#!" class="btn btn-info">
+                                        View Component
+                                    </a>
                                 </div>
                             </div>
                         </div>
