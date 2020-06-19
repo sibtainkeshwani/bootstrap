@@ -14,9 +14,9 @@ This is also a boilerplate for bootstrap v5.0.0 alpha with Gulp.
 <li>Favorite editor</li>
 </ul>
 
-##Let's begin
+## Let's begin
 
-Download zip file here
+Download zip file: <a href="https://github.com/prafullaranjan/bootstrap.git"> Here </a>
 
 
 Extract this and go to the extracted folder & run this command
