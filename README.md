@@ -31,6 +31,15 @@ This will install all the dependencies of this project.
 
 <code>npm run watch</code> - to open and watch this project locally.
 
+## Open source credits
+<h5>Thanks to these open source libraries and framework</h5>
+<ul>
+    <li><a href="https://getbootstrap.com" target="_blank">Bootstrap</a> - CSS framework</li>
+    <li><a href="https://jquery.com" target="_blank">jQuery</a> - Javascript Library</li>
+    <li><a href="https://iconify.design" target="_blank">iconify</a> - SVG icon library</li>
+    <li><a href="http://fian.my.id/Waves/" target="_blank">Waves</a> - Material waves effect</li>
+</ul>
+
 Thanks fo reading.
 
 I am aiming to enhance this as much as possible. This repo will get a continuous update & actively maintained.
