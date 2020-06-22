@@ -19,18 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e6003f3-ae8b-4a32-adde-8867432c0c74" name="Default Changelist" comment="Removed unnecessary xml codes">
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/waves/waves.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/plugins/waves/waves.scss" afterDir="false" />
+    <list default="true" id="8e6003f3-ae8b-4a32-adde-8867432c0c74" name="Default Changelist" comment="Jekyll theme reverted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/custom/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/custom/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +106,8 @@
       <workItem from="1592461355553" duration="21270000" />
       <workItem from="1592544842122" duration="3249000" />
       <workItem from="1592548445393" duration="2802000" />
-      <workItem from="1592552142496" duration="21514000" />
+      <workItem from="1592552142496" duration="21818000" />
+      <workItem from="1592802678865" duration="5077000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1592547499784</created>
@@ -149,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592548523004</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Various UI changes - Not ready for production">
+      <created>1592575644623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592575644623</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Jekyll theme reverted">
+      <created>1592575783150</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592575783150</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,37 +184,47 @@
     <MESSAGE value="Download link added" />
     <MESSAGE value="Download link updated" />
     <MESSAGE value="Removed unnecessary xml codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary xml codes" />
+    <MESSAGE value="Various UI changes - Not ready for production" />
+    <MESSAGE value="Jekyll theme reverted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jekyll theme reverted" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1727" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592465922618">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1727" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592465922618" />
+    <state x="1458" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1592575865239">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1458" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592575865239" />
     <state x="1927" y="267" key="Github.ShareDialog" timestamp="1592547549586">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
     <state x="1927" y="267" key="Github.ShareDialog/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592547549586" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1592571772000">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1592575867639">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592571772000" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1592571772000">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592575867639" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1592575867639">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592571772000" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1592571771999">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592575867639" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1592575867639">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592571771999" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1592571772000">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592575867639" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1592575867639">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592571772000" />
-    <state x="1641" y="102" key="Vcs.Push.Dialog.v2" timestamp="1592548534402">
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592575867639" />
+    <state x="1858" y="282" key="VCS.ChangelistChooser" timestamp="1592575763577">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state x="1641" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592548534402" />
+    <state x="1858" y="282" key="VCS.ChangelistChooser/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592575763577" />
+    <state x="1641" y="102" key="Vcs.Push.Dialog.v2" timestamp="1592575789740">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1641" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1592575789740" />
     <state x="1705" y="165" key="run.anything.popup" timestamp="1592572350897">
       <screen x="1366" y="0" width="1366" height="738" />
     </state>

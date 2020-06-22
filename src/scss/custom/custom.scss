@@ -8,151 +8,72 @@
 
 //Custom css
 
-.mobilemenutrigger {
-  display: none;
-  @include  media-breakpoint-down(sm) {
-    display: inline-block;
-  }
-  @media screen and (orientation: landscape) and (max-width: 832px) {
-    display: inline-block;
-  }
+//Sidebar menu
+.iconify {
+  position: relative;
+  top: -2px;
 }
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-  .logo-wrap {
-    @include media-breakpoint-down(sm) {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
+  .toggler {
+    display: none;
+    @include media-breakpoint-down(md) {
+      display: inline-block;
     }
   }
 }
-.menu-wrapper {
-    background-color: $white;
+.navbar-nav {
+  .nav-item {
     @include transition();
+    @include border-radius();
     @include media-breakpoint-down(sm) {
-      position: fixed;
-      top: 56px;
-      left: 0;
-      height: 100vh;
-      width: 0px;
+      border-top: 1px solid $gray-200;
     }
-    ul.navbar-nav {
-      margin: 0;
+    &:hover {
+      background-color: $gray-200;
+    }
+    .nav-link {
+      color: $dark;
+      @include media-breakpoint-down(md) {
+        padding: 10px 15px;
+      }
+    }
+    ul.dropdown-menu {
+      border-radius: 0;
       padding: 0;
-      @include media-breakpoint-down(sm) {
-        height: calc(100vh - 56px);
-        overflow: hidden;
-        overflow-y: auto;
-        overflow-wrap: normal;
-      }
-      .nav-item {
-        //background-color: $gray-200;
-        position: relative;
-        @include transition();
-        @include media-breakpoint-down(sm) {
-          border-top: 1px solid $gray-100;
-        }
-        &:hover {
-          background-color: $gray-100;
-          .nav-link {
-            color: $dark;
-          }
-          .dropmenu {
-            &::before {
-              top: 16px;
-              right: 10px;
-              transform: rotate(90deg);
-            }
-          }
-        }
-        .nav-link {
-          padding: 10px 20px;
-          display: block;
-          color: $dark;
-        }
-      }
-      .mobile-menu-header {
-        min-height: 65px;
-      }
-      ul.submenu {
-        @include box-shadow($box-shadow);
-        background-color: $gray-200;
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        display: none;
-        @include media-breakpoint-up(md) {
-          background-color: $white;
-          position: absolute;
-          top: 54px;
-          right: 0;
-          box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.15);
-        }
-        li {
-          padding: 10px 20px;
-          @include transition();
-          &:hover {
-            background-color: lighten($success, 5%);
-            a {
-              color: $white;
-            }
-          }
-          a {
-            @include transition();
-            padding: 10px 20px;
-            text-decoration: none;
-            color: lighten($dark, 5%);
-          }
-        }
-        .active {
-          background-color: lighten($success, 5%);
-          a {
-            color: $white;
-          }
-        }
-      }
+      margin: 0;
+      right: 0;
+      left: auto;
+      @include box-shadow($box-shadow-sm);
     }
-    .logo-close {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 15px 20px;
-      background-color: $success;
-      position: fixed;
-      width: 100%;
-      z-index: 1;
-      box-shadow: 0 0 20px 0px #808080, 0 0 5px 2px rgba(255, 255, 255, 0.1412);
-      a {
-        text-decoration: none;
-        @include transition();
-        font-size: 22px;
-        color: $white;
-      }
-      .closemenu {
-        background-color: darken($success, 10%);
-        width: 35px;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 5px;
-        @include transition();
-        &:hover {
-          border-radius: 50%;
-        }
-        .iconify {
-          color: $white;
-        }
-      }
-    }
+  }
+  .active {
 
-  @media screen and (orientation: landscape) and (max-width: 832px) {
-    display: none;
+  }
+  .dropdown {
+    .dropdown-toggle {
+
+    }
+    ul.dropdown-menu {
+
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: $white;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+  }
+  .offcanvas-collapse.open {
+    visibility: visible;
+    transform: translateX(-100%);
   }
 }
 

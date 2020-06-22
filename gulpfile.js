@@ -124,7 +124,7 @@ gulp.task('watchman', function () {
         server: {
             baseDir: "./"
         },
-        port: 9090,
+        port: 4545,
     });
     gulp.watch(stylewatchfiles, gulp.parallel('framework'));
     gulp.watch(stylewatchfiles, gulp.parallel('custom'));
